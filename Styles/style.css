@@ -130,6 +130,7 @@ main {
     width: 875px;
     grid-column-gap: 25px;
     grid-row-gap: 25px;
+    margin-bottom: 20px;
 
 }
 
@@ -210,14 +211,18 @@ main {
 
 
 .footer {
-    height: 200px;
+    display: grid;
+    height: 300px;
     width: 1480px;
     background-color: rgb(55, 52, 52);
-    padding: 10px;
-    margin-top: 10px;
-    text-align: center;
+    justify-items: center;
 }
 
+.footer1 {
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
 
 .footer_goal {
     font-size: 40px;
@@ -242,6 +247,19 @@ hr {
     margin: 10px 10px 10px 10px;
     font-size: 15px;
     color: white;
+}
+
+.social_media_icon {
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 20px;
+
+}
+
+
+
+.social_media_icon i {
+    font-size: 40px;
 }
 
 /*--------------------- Footer End----------------------*/
