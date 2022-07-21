@@ -1,0 +1,283 @@
+body {
+
+    /*min-height: 100vh; 
+    width: 100vw; */
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* -------------Section-------------1 */
+
+#section1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 1200px;
+    height: 580px;
+    padding: 1px 14px;
+    margin: 30px 100px;
+    border-radius: 15px;
+    background-color: lightslategray;
+
+}
+
+#section1:hover {
+    background-color: rgb(144, 166, 188);
+    color: white;
+}
+
+
+
+.half-width {
+    width: 50%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.white_bold_text {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 60px;
+    padding-left: 50px;
+}
+
+.white_small_text {
+    color: white;
+    font-size: 18px;
+    padding-left: 50px;
+    margin-top: -25px;
+}
+
+.link_Button {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgba(220, 10, 10, 0.537);
+    color: white;
+    margin-left: 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.half-width img {
+
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 10%;
+    height: 510px;
+    width: 500px;
+}
+
+
+/* -----------------section 2 start------------------------ */
+
+
+
+
+#section2 {
+    display: flex;
+    background-color: white;
+    width: 1230px;
+}
+
+.box1 {
+    width: 25%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: rgb(123, 124, 124);
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-right: 25px;
+    padding-bottom: 15px;
+}
+
+.link_Button1 {
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    background-color: rgba(216, 18, 18, 0.537);
+    color: white;
+    margin-top: 6px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    align-content: space-between;
+
+}
+
+.link_Button1:hover {
+    background-color: rgb(217, 7, 7);
+    color: white;
+}
+
+
+.box2 {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 875px;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+
+}
+
+.blog {
+    background-color: whitesmoke;
+    width: 312px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.banner img {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.link_Button2 {
+    text-decoration: none;
+    font-size: 10px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.text {
+    color: black;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.info img {
+    padding-left: 10px;
+    width: 15px;
+    height: 15px;
+
+}
+
+.span_text {
+    padding-right: 50px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.box3 {
+
+    visibility: hidden;
+}
+
+.link_Button4 {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgba(233, 7, 7, 0.794);
+    color: white;
+    margin-left: 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* -----------------section 2 End------------------------ */
+
+
+/*--------------------- Footer Start----------------------*/
+
+
+
+.footer {
+    height: 200px;
+    width: 1480px;
+    background-color: rgb(55, 52, 52);
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.footer_goal {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+hr {
+    width: 1200px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+}
+
+.footer a {
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px 10px 10px 10px;
+    font-size: 15px;
+    color: white;
+}
+
+/*--------------------- Footer End----------------------*/
+
+
+/* match */
+.match_banner {
+    display: flex;
+}
+
+.match_banner img {
+    width: 125px;
+    height: 96px;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.vs {
+    font-size: 25px;
+    font-weight: bold;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.text1 {
+    text-align: center;
+}
+
+.text2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text3 {
+    font-size: 17px;
+    color: rgb(57, 55, 55);
+}
